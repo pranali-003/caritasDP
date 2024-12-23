@@ -1,0 +1,55 @@
+/* Container */
+.payment-success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8f7; /* Light mint green */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    text-align: center;
+  }
+  
+  /* Success Icon */
+  .success-icon {
+    width: 120px;
+    height: 120px;
+    background-color: #4caf50; /* Green circular background */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .checkmark {
+    font-size: 50px;
+    color: white; /* White checkmark */
+    font-weight: bold;
+  }
+  
+  /* Success Message */
+  .success-message {
+    font-size: 32px;
+    color: #2e7d32; /* Darker green */
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .back-to-home-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #00796b; /* Teal for button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-home-btn:hover {
+    background-color: #004d40; /* Darker teal on hover */
+  }
+  

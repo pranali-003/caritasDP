@@ -1,0 +1,227 @@
+{
+  "ngos": [
+    {
+      "unique_id": "ngo_001",
+      "name": "Helping Hands Foundation",
+      "registration_number": "REG12345",
+      "authentication_status": true,
+      "intake_count": 150,
+      "contact_number": "+91-9988998899",
+      "address": {
+        "street": "123 Charity Lane",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zip_code": "400001",
+        "country": "India"
+      },
+      "cause_aim": "Providing shelter and education for underprivileged children",
+      "profile_photo": "https://example.com/profile_photo.png",
+      "website": {
+        "url": "https://helpinghands.org",
+        "email": "info@helpinghands.org"
+      },
+      "requirements": {
+        "food": {
+          "required": true,
+          "quantity": 200,
+          "unit": "kg"
+        },
+        "clothing": {
+          "required": true,
+          "quantity": 100,
+          "unit": "pieces"
+        },
+        "study_material": {
+          "required": true,
+          "quantity": 50,
+          "unit": "sets"
+        },
+        "money": {
+          "required": true,
+          "amount": 50000,
+          "currency": "INR"
+        }
+      },
+      "donation_updates": [
+        {
+          "date": "2024-08-15",
+          "amount_received": 8000,
+          "donor": "Ravi Kumar",
+          "donor_contact": "+91-9876543210"
+        },
+        {
+          "date": "2024-09-01",
+          "amount_received": 5000,
+          "donor": "Priya Nair",
+          "donor_contact": "+91-9876765432"
+        }
+      ],
+      "appointments": {
+        "visit_booking_dates": [
+          "2024-09-10",
+          "2024-09-15",
+          "2024-09-20"
+        ],
+        "availability": {
+          "monday": "10:00 AM - 4:00 PM",
+          "tuesday": "10:00 AM - 4:00 PM",
+          "wednesday": "10:00 AM - 4:00 PM",
+          "thursday": "Closed",
+          "friday": "10:00 AM - 4:00 PM"
+        }
+      },
+      "account_details": {
+        "bank_name": "State Bank of India",
+        "account_number": "1234567890",
+        "ifsc_code": "SBIN0001234"
+      },
+      "created_at": "2020-01-10T10:15:30Z",
+      "updated_at": "2024-09-10T14:22:45Z"
+    },
+    {
+      "unique_id": "ngo_002",
+      "name": "Education for All",
+      "registration_number": "REG56789",
+      "authentication_status": true,
+      "intake_count": 300,
+      "contact_number": "+91-9988556677",
+      "address": {
+        "street": "456 Learning Blvd",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zip_code": "110001",
+        "country": "India"
+      },
+      "cause_aim": "Providing educational resources and support to underprivileged children",
+      "profile_photo": "https://example.com/education_logo.png",
+      "website": {
+        "url": "https://educationforall.org",
+        "email": "contact@educationforall.org"
+      },
+      "requirements": {
+        "food": {
+          "required": true,
+          "quantity": 250,
+          "unit": "kg"
+        },
+        "clothing": {
+          "required": true,
+          "quantity": 150,
+          "unit": "pieces"
+        },
+        "study_material": {
+          "required": true,
+          "quantity": 100,
+          "unit": "sets"
+        },
+        "money": {
+          "required": true,
+          "amount": 80000,
+          "currency": "INR"
+        }
+      },
+      "donation_updates": [
+        {
+          "date": "2024-07-22",
+          "amount_received": 50000,
+          "donor": "Vikram Singh",
+          "donor_contact": "+91-9988776655"
+        },
+        {
+          "date": "2024-08-18",
+          "amount_received": 30000,
+          "donor": "Anjali Sharma",
+          "donor_contact": "+91-9123456789"
+        }
+      ],
+      "appointments": {
+        "visit_booking_dates": [
+          "2024-09-05",
+          "2024-09-12",
+          "2024-09-19"
+        ],
+        "availability": {
+          "monday": "9:00 AM - 5:00 PM",
+          "wednesday": "9:00 AM - 5:00 PM",
+          "friday": "9:00 AM - 5:00 PM"
+        }
+      },
+      "account_details": {
+        "bank_name": "ICICI Bank",
+        "account_number": "9876543210",
+        "ifsc_code": "ICIC0001234"
+      },
+      "created_at": "2019-08-25T08:30:20Z",
+      "updated_at": "2024-09-10T14:22:45Z"
+    },
+    {
+      "unique_id": "ngo_003",
+      "name": "Save the Earth Initiative",
+      "registration_number": "REG98765",
+      "authentication_status": false,
+      "intake_count": 500,
+      "contact_number": "+91-9988334455",
+      "address": {
+        "street": "789 Green Way",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zip_code": "560001",
+        "country": "India"
+      },
+      "cause_aim": "Promoting environmental sustainability and conservation efforts",
+      "profile_photo": "https://example.com/earth_logo.png",
+      "website": {
+        "url": "https://savetheearth.org",
+        "email": "support@savetheearth.org"
+      },
+      "requirements": {
+        "food": {
+          "required": false,
+          "quantity": 0,
+          "unit": "kg"
+        },
+        "clothing": {
+          "required": false,
+          "quantity": 0,
+          "unit": "pieces"
+        },
+        "study_material": {
+          "required": true,
+          "quantity": 80,
+          "unit": "sets"
+        },
+        "money": {
+          "required": true,
+          "amount": 100000,
+          "currency": "INR"
+        }
+      },
+      "donation_updates": [
+        {
+          "date": "2024-06-10",
+          "amount_received": 70000,
+          "donor": "Eco Warriors",
+          "donor_contact": "+91-9988001234"
+        }
+      ],
+      "appointments": {
+        "visit_booking_dates": [
+          "2024-09-01",
+          "2024-09-15",
+          "2024-09-30"
+        ],
+        "availability": {
+          "tuesday": "8:00 AM - 3:00 PM",
+          "thursday": "8:00 AM - 3:00 PM"
+        }
+      },
+      "account_details": {
+        "bank_name": "HDFC Bank",
+        "account_number": "1122334455",
+        "ifsc_code": "HDFC0009876"
+      },
+      "created_at": "2021-05-10T09:12:10Z",
+      "updated_at": "2024-09-10T14:22:45Z"
+    }
+  ]
+}

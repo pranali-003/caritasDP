@@ -1,0 +1,8 @@
+.layout {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Ensure the layout covers the full height of the viewport */
+    font-family: Arial, sans-serif; /* Set a default font */
+    /* color: #E6FF81; */
+    /* background-color: #E6FF81;  */
+}

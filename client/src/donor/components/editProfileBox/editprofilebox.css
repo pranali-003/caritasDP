@@ -1,0 +1,81 @@
+.edit-container{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+}
+.edit-top{
+    /* border: 2px solid red; */
+    height: 120px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* flex-direction: column; */
+    width: 200px;
+
+}
+.edit-top button{
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
+form {
+  max-width: 600px;
+  /* margin: 0 auto; */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  /* border: 1px solid red; */
+  width: 450px;
+}
+
+form h2 {
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 12px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+form input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+form .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+form button[type="button"] {
+  background-color: #ccc;
+}
+
+form button:hover {
+  opacity: 0.9;
+}

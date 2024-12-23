@@ -1,0 +1,149 @@
+
+  /* Appointment container */
+  .appointment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title styles */
+  .appointment-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* NGO details */
+  .appointment-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-container strong {
+    color: #333;
+  }
+  
+  /* Cart details section */
+  .cart-details {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-details h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cart-details ul {
+    list-style-type: none;
+  }
+  
+  .cart-details li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Appointment details form */
+  .appointment-container div {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .appointment-container label {
+    font-size: 1.1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .appointment-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-container input[type="date"],
+  .appointment-container input[type="time"] {
+    max-width: 250px;
+  }
+  
+  /* Button styles */
+  button {
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #28a745;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .appointment-container {
+      padding: 10px;
+    }
+  
+    .appointment-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .cart-details h3 {
+      font-size: 1.3rem;
+    }
+  
+    .cart-details li {
+      font-size: 1rem;
+    }
+  
+    .appointment-container label,
+    .appointment-container input,
+    button {
+      font-size: 1rem;
+    }
+  
+    .appointment-container input[type="date"],
+    .appointment-container input[type="time"] {
+      max-width: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .appointment-container h2 {
+      font-size: 1.2rem;
+    }
+  
+    .cart-details h3 {
+      font-size: 1.2rem;
+    }
+  
+    .cart-details li {
+      font-size: 0.9rem;
+    }
+  
+    .appointment-container label,
+    .appointment-container input,
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  

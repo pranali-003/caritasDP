@@ -1,0 +1,63 @@
+.calendar-container {
+    height: 100%;
+    overflow: hidden; /* Ensure the calendar does not overflow */
+  }
+  
+  .calendar {
+    height: 530px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+/* Change color of navigation buttons (today, month, week, day) */
+.fc-button, .fc-button-primary {
+  background-color: #c585f0!important;
+  border-color:#c585f0 !important;
+}
+
+/* Change the title color */
+.fc-toolbar-title {
+  color:#005fa3 !important;
+  font-weight:lighter
+}
+
+/* Change the color of the left and right arrows */
+.fc-prev-button, .fc-next-button {
+  color: #fafbfc !important;
+}
+
+/* Ensure hover and active states reflect the color change */
+.fc-button:hover, .fc-button:focus {
+  background-color: #005fa3 !important; /* Darker shade of #0078C7 */
+  border-color: #005fa3 !important;
+}
+
+/* Style the day titles (Sun, Mon, etc.) background and text color */
+.fc-col-header-cell {
+  background-color: #b1dcf8 !important; /* Set the background to blue */
+  color: white ; /* Set the text color to white */
+  font-weight: lighter;
+}
+
+/* Optional: Add some padding for a better look */
+.fc-col-header-cell-cushion {
+  padding: 10px;
+}
+
+/* Hover effect for day titles */
+.fc-col-header-cell:hover {
+  background-color: #c585f0 !important; /* Darker shade of blue on hover */
+  color:white;
+}
+
+/* Remove underline from day titles and dates */
+.fc-daygrid-day, .fc-daygrid-day-number {
+  text-decoration: none; /* Remove underline */
+}
+
+/* Optional: Ensure text color remains consistent */
+.fc-daygrid-day, .fc-daygrid-day-number {
+  color: inherit; /* Use inherited color */
+}
+

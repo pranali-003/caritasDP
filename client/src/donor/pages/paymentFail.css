@@ -1,0 +1,61 @@
+/* Container */
+.payment-fail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdf2f2; /* Light red background */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    text-align: center;
+  }
+  
+  /* Failure Icon */
+  .fail-icon {
+    width: 120px;
+    height: 120px;
+    background-color: #f44336; /* Red circular background */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .cross-icon {
+    font-size: 50px;
+    color: white; /* White cross icon */
+    font-weight: bold;
+  }
+  
+  /* Failure Message */
+  .fail-message {
+    font-size: 32px;
+    color: #d32f2f; /* Darker red */
+    margin-bottom: 10px;
+  }
+  
+  .fail-description {
+    font-size: 18px;
+    color: #555; /* Gray description text */
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .back-to-home-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #d32f2f; /* Red for button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-home-btn:hover {
+    background-color: #9a0007; /* Darker red on hover */
+  }
+  

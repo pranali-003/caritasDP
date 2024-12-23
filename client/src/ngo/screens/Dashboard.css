@@ -1,0 +1,62 @@
+
+
+  /* Sidebar Menu */
+.sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full height */
+    width: 250px; /* Width of the sidebar */
+    background-color: white;
+    border-right: 2px solid red; /* Red border for visual distinction */
+    transform: translateX(-100%); /* Initially hidden off-screen */
+    transition: transform 0.3s ease;
+    z-index: 999; /* Ensure it's on top of other content */
+  }
+  
+  .sidebar-menu-open {
+    transform: translateX(0); /* Slide into view */
+  }
+  
+  /* Main Content Adjustment */
+  .main-content {
+    transition: margin-left 0.3s ease;
+  }
+  
+  .menu-open .main-content {
+    margin-left: 250px; /* Shift content to the right to make space for the sidebar */
+  }
+  
+  /* Custom Heights */
+  .ngo-info {
+    height: 150px; /* Adjust height as needed */
+  }
+  
+  .ngo-collection {
+    height: 220px; /* Adjust height as needed */
+  }
+  
+  .community-forum {
+    height: 230px; /* Adjust height as needed */
+    /* border: 2px solid red; */
+    border-radius: 15px;
+   
+  }
+  
+  .calendar {
+    /* border: 2px solid rgb(159, 156, 156); */
+    height: 530px; /* Adjust height as needed */
+  }
+  
+  .bookings {
+    /* border: 2px solid yellow; */
+    height: 530px; /* Adjust height as needed */
+  }
+  
+  .requirement-status {
+    margin-top: 10px;
+    height: 250px; /* Adjust height as needed */
+    /* background-color: #f8f9fa; */
+    padding:10px;
+  }
+  

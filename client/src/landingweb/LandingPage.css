@@ -1,0 +1,787 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #7ABF49;
+    /* background-color: #00796b; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+ 
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .logo-container .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .logo-container h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .navbar a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  
+
+.login-btn, .register-button {
+    background-color: #3088BF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover, .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .close-btn:hover {
+    color: #F20505;
+  }
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modal-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .modal-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  /* Quote Section */
+/* Quote Section Styles */
+.quote-section {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Center the content horizontally */
+    gap: 20px; /* Space between image and quote */
+    padding: 20px;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    overflow: hidden;
+  }
+  
+  /* Quote Image with Subtle Animation */
+  .quote-img {
+    width: 40%; /* Adjust width to fit layout */
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    animation: float 4s ease-in-out infinite;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .quote-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Blockquote Style */
+  blockquote {
+    font-size: 1.9rem;
+    color: #464444;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
+    max-width: 80%; /* Prevent text from stretching too wide */
+  }
+  
+  /* Floating Animation for Image */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Fade-In Animation for Text */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  
+ /* About Section Styling */
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #f7f7f7, #e1f5fe);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  max-width: 600px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  color: #c2cfdd;
+  margin-bottom: 20px;
+  font-weight: bold;
+  animation: bounce 1.5s;
+}
+
+.highlight {
+  color: #ff4081;
+  animation: highlightFade 2.5s infinite;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-right: 20px;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+/* Video styling with hover effect */
+.about-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .react-player {
+    max-width: 700px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.about-video .video-frame {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.about-video .video-frame:hover {
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes highlightFade {
+  0% { color: #ff4081; }
+  50% { color: #007bff; }
+  100% { color: #ff4081; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+  /* Features Section */
+.features-section {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Feature Card */
+.feature-card {
+  perspective: 1000px; /* For 3D flip effect */
+  width: 200px;
+  height: 250px;
+}
+
+.feature-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.feature-card:hover .feature-card-inner {
+  transform: rotateY(180deg); /* Flip card on hover */
+}
+
+/* Front Face */
+.feature-card-front,
+.feature-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide back side when front is visible */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Front Style */
+.feature-card-front {
+  background:#faa338;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Back Style */
+.feature-card-back {
+  background: #fff;
+  transform: rotateY(180deg); /* Initially flipped */
+  flex-direction: column;
+}
+
+.feature-image {
+  width: 80%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.feature-title-back {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .feature-card {
+    width: 150px;
+    height: 200px;
+  }
+  .feature-title-front,
+  .feature-title-back {
+    font-size: 0.9rem;
+  }
+  .feature-image {
+    height: 120px;
+  }
+}
+
+/* NGO Section */
+.ngos-section {
+    padding: 40px 20px;
+    background-color:#a2e970;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .ngo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .ngo-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .ngo-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-section {
+    position: relative;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .notification-dot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #f00;
+    border-radius: 50%;
+  }
+  
+  .ngo-info {
+    padding: 10px;
+  }
+  
+  .ngo-info h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .ngo-info p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .location {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .view-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Modal Section */
+  .ngo-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #f31616;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #333;
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-location {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+
+/* Footer Styling */
+.g4g-footer {
+    background-color: #035587;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-left h2 {
+    font-size: 2rem;
+    color: #ffcc00;
+  }
+  
+  .footer-left p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 10px 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ffcc00;
+  }
+  
+  .footer-right {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .footer-right h2, .footer-right h3 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+  }
+  
+  .footer-contact-info {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-contact-info li {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .footer-contact-info a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  .footer-contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    margin-top: 20px;
+  }
+  
+  .footer-social a {
+    margin-right: 15px;
+    display: inline-block;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    filter: brightness(0.8) invert(1);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  
+ 
+  
+  /* Feature Section Csss */
+   
+  /* Styling for the entire feature section */
+.features-section {
+  background-color: #f9f9f9; /* Light background */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title for the feature section */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Container for all feature cards */
+.feature-cards {
+  display: flex;
+  justify-content: space-around; /* Distribute cards evenly */
+  flex-wrap: wrap; /* Wraps the cards on smaller screens */
+  gap: 20px; /* Adds space between cards */
+}
+
+/* Individual feature card */
+.feature-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  width: 180px; /* Set a fixed width for the card */
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for the feature cards */
+.feature-card:hover {
+  transform: scale(1.05); /* Enlarge the card slightly on hover */
+}
+
+/* Feature image styling */
+.feature-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  height: 150px;
+  width: 250px;
+}
+
+/* Title below each image */
+.feature-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+ /* NGO Cart  */
+ /* Container for all NGO cards */
+.ngo-list {
+  display: flex;
+  flex-wrap: wrap; /* This will ensure the cards wrap onto a new line if they overflow */
+  justify-content: space-between; /* Space out cards horizontally */
+  padding: 20px;
+  margin: 0 auto;
+  gap: 20px; /* Space between cards */
+}
+
+/* Individual NGO card */
+.ngo-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  width: 250px; /* Set a fixed width for each card */
+  transition: transform 0.3s ease;
+  height: 450px;
+  /* border: 2px solid red; */
+}
+
+.ngo-card:hover {
+  transform: scale(1.05); /* Hover effect to slightly enlarge the card */
+}
+
+/* NGO image section */
+.image-section {
+  position: relative;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Notification dot */
+.notification-dot {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 12px;
+  width: 12px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* NGO card information */
+.ngo-info h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.ngo-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Location info */
+.location {
+  font-style: italic;
+  color: #999;
+}
+
+/* View button styling */
+.view-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,235 @@
+{
+  "donors": [
+    {
+      "donor_name": "Ravi Kumar",
+      "donor_id": "donor_001",
+      "email": "ravi.kumar@example.com",
+      "contact_no": "+91-9876543210",
+      "address": {
+        "street": "45 Sarvodaya Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zip_code": "560001",
+        "country": "India"
+      },
+      "donation": {
+        "item": "money",
+        "quantity": 50000,
+        "currency": "INR",
+        "to_ngo": {
+          "ngo_name": "Helping Hands Foundation",
+          "ngo_id": "ngo_001"
+        }
+      },
+      "donation_history": [
+        {
+          "date": "2024-06-10",
+          "item": "clothing",
+          "quantity": 100,
+          "to_ngo": {
+            "ngo_name": "Education for All",
+            "ngo_id": "ngo_002"
+          }
+        },
+        {
+          "date": "2024-08-15",
+          "item": "money",
+          "quantity": 50000,
+          "currency": "INR",
+          "to_ngo": {
+            "ngo_name": "Helping Hands Foundation",
+            "ngo_id": "ngo_001"
+          }
+        }
+      ],
+      "account_details": {
+        "bank_name": "State Bank of India",
+        "account_number": "123456789012",
+        "ifsc_code": "SBIN0001234"
+      },
+      "account_status": "active",
+      "booked_appointment": {
+        "visit_date": "2024-09-12",
+        "ngo_name": "Helping Hands Foundation",
+        "ngo_id": "ngo_001",
+        "status": "confirmed"
+      },
+      "created_at": "2021-01-10T08:30:00Z",
+      "updated_at": "2023-08-15T12:45:00Z"
+    },
+    {
+      "donor_name": "Anjali Sharma",
+      "donor_id": "donor_002",
+      "email": "anjali.sharma@example.com",
+      "contact_no": "+91-9123456789",
+      "address": {
+        "street": "78 Lajpat Nagar",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "zip_code": "110024",
+        "country": "India"
+      },
+      "donation": {
+        "item": "food",
+        "quantity": 200,
+        "unit": "kg",
+        "to_ngo": {
+          "ngo_name": "Save the Earth Initiative",
+          "ngo_id": "ngo_003"
+        }
+      },
+      "donation_history": [
+        {
+          "date": "2024-05-20",
+          "item": "money",
+          "quantity": 25000,
+          "currency": "INR",
+          "to_ngo": {
+            "ngo_name": "Animal Rescue Shelter",
+            "ngo_id": "ngo_005"
+          }
+        },
+        {
+          "date": "2024-07-12",
+          "item": "food",
+          "quantity": 200,
+          "unit": "kg",
+          "to_ngo": {
+            "ngo_name": "Save the Earth Initiative",
+            "ngo_id": "ngo_003"
+          }
+        }
+      ],
+      "account_details": {
+        "bank_name": "HDFC Bank",
+        "account_number": "987654321098",
+        "ifsc_code": "HDFC0005678"
+      },
+      "account_status": "active",
+      "booked_appointment": {
+        "visit_date": "2024-09-18",
+        "ngo_name": "Animal Rescue Shelter",
+        "ngo_id": "ngo_005",
+        "status": "pending"
+      },
+      "created_at": "2021-02-15T09:00:00Z",
+      "updated_at": "2023-09-01T13:10:00Z"
+    },
+    {
+      "donor_name": "Vikram Singh",
+      "donor_id": "donor_003",
+      "email": "vikram.singh@example.com",
+      "contact_no": "+91-9988776655",
+      "address": {
+        "street": "12 Civil Lines",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zip_code": "302001",
+        "country": "India"
+      },
+      "donation": {
+        "item": "study_material",
+        "quantity": 50,
+        "unit": "sets",
+        "to_ngo": {
+          "ngo_name": "Education for All",
+          "ngo_id": "ngo_002"
+        }
+      },
+      "donation_history": [
+        {
+          "date": "2024-04-15",
+          "item": "money",
+          "quantity": 10000,
+          "currency": "INR",
+          "to_ngo": {
+            "ngo_name": "Medical Aid Relief",
+            "ngo_id": "ngo_004"
+          }
+        },
+        {
+          "date": "2024-08-10",
+          "item": "study_material",
+          "quantity": 50,
+          "unit": "sets",
+          "to_ngo": {
+            "ngo_name": "Education for All",
+            "ngo_id": "ngo_002"
+          }
+        }
+      ],
+      "account_details": {
+        "bank_name": "ICICI Bank",
+        "account_number": "102938475612",
+        "ifsc_code": "ICIC0000987"
+      },
+      "account_status": "active",
+      "booked_appointment": {
+        "visit_date": "2024-09-20",
+        "ngo_name": "Medical Aid Relief",
+        "ngo_id": "ngo_004",
+        "status": "confirmed"
+      },
+      "created_at": "2021-03-20T10:15:00Z",
+      "updated_at": "2023-09-05T15:00:00Z"
+    },
+    {
+      "donor_name": "Priya Nair",
+      "donor_id": "donor_004",
+      "email": "priya.nair@example.com",
+      "contact_no": "+91-9876765432",
+      "address": {
+        "street": "34 Marine Drive",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zip_code": "400020",
+        "country": "India"
+      },
+      "donation": {
+        "item": "money",
+        "quantity": 75000,
+        "currency": "INR",
+        "to_ngo": {
+          "ngo_name": "Helping Hands Foundation",
+          "ngo_id": "ngo_001"
+        }
+      },
+      "donation_history": [
+        {
+          "date": "2024-03-18",
+          "item": "money",
+          "quantity": 50000,
+          "currency": "INR",
+          "to_ngo": {
+            "ngo_name": "Save the Earth Initiative",
+            "ngo_id": "ngo_003"
+          }
+        },
+        {
+          "date": "2024-08-01",
+          "item": "money",
+          "quantity": 75000,
+          "currency": "INR",
+          "to_ngo": {
+            "ngo_name": "Helping Hands Foundation",
+            "ngo_id": "ngo_001"
+          }
+        }
+      ],
+      "account_details": {
+        "bank_name": "Axis Bank",
+        "account_number": "110022334455",
+        "ifsc_code": "UTIB0001122"
+      },
+      "account_status": "inactive",
+      "booked_appointment": {
+        "visit_date": "2024-09-10",
+        "ngo_name": "Save the Earth Initiative",
+        "ngo_id": "ngo_003",
+        "status": "canceled"
+      },
+      "created_at": "2021-04-25T11:00:00Z",
+      "updated_at": "2023-08-20T16:30:00Z"
+    }
+  ]
+}

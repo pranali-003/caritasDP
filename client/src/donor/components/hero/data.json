@@ -1,0 +1,52 @@
+
+[
+    {
+      "id": 1,
+      "image": "https://1.bp.blogspot.com/-ZkWC9H9Z7xE/Xy6J-_P1kgI/AAAAAAAAAAU/yRCb2ABdznA97f07B8tsc_9euJx4JaNyACLcBGAsYHQ/s700/191286_1.jpg",
+      "ngoName": "Lion's Bal Sadan",
+      "description": "Providing food and shelter to the underprivileged Children.",
+      "additionalInfo": "Our mission is to provide nourishment and care to children in need .",
+    "requiredDonations": ["clothes", "groceries"]
+    },
+    {
+      "id": 2,
+      "image": "https://www.youngisthan.in/wp-content/uploads/2018/10/ngo-970x582.jpg",
+      "ngoName": "Green Earth Initiative",
+      "description": "Focused on tree planting and environmental conservation.",
+      "additionalInfo": "Over 1 million trees planted worldwide. Join us in our green mission.",
+    "requiredDonations": ["clothes", "food"]
+    },
+    {
+      "id": 3,
+      "image": "https://1.bp.blogspot.com/-ZkWC9H9Z7xE/Xy6J-_P1kgI/AAAAAAAAAAU/yRCb2ABdznA97f07B8tsc_9euJx4JaNyACLcBGAsYHQ/s700/191286_1.jpg",
+      "ngoName": "EduCare Foundation",
+      "description": "Bringing quality education to underprivileged children.",
+      "additionalInfo": "Supporting over 5,000 students with scholarships and resources.",
+    "requiredDonations": ["medicines"]
+    },
+    {
+      "id": 4,
+      "image": "https://1.bp.blogspot.com/-ZkWC9H9Z7xE/Xy6J-_P1kgI/AAAAAAAAAAU/yRCb2ABdznA97f07B8tsc_9euJx4JaNyACLcBGAsYHQ/s700/191286_1.jpg",
+      "ngoName": "Helping Hands",
+      "description": "Providing food and shelter to the homeless in urban areas.",
+      "additionalInfo": "Our mission is to reduce homelessness by 50% by 2025.",
+    "requiredDonations": ["clothes", "food"]
+    },
+    {
+      "id": 5,
+      "image": "https://1.bp.blogspot.com/-ZkWC9H9Z7xE/Xy6J-_P1kgI/AAAAAAAAAAU/yRCb2ABdznA97f07B8tsc_9euJx4JaNyACLcBGAsYHQ/s700/191286_1.jpg",
+      "ngoName": "Helping Hands",
+      "description": "Providing food and shelter to the homeless in urban areas.",
+      "additionalInfo": "Our mission is to reduce homelessness by 50% by 2025.",
+    "requiredDonations": ["clothes", "food"]
+    },
+    {
+      "id": 6,
+      "image": "https://1.bp.blogspot.com/-ZkWC9H9Z7xE/Xy6J-_P1kgI/AAAAAAAAAAU/yRCb2ABdznA97f07B8tsc_9euJx4JaNyACLcBGAsYHQ/s700/191286_1.jpg",
+      "ngoName": "Helping Hands",
+      "description": "Providing food and shelter to the homeless in urban areas.",
+      "additionalInfo": "Our mission is to reduce homelessness by 50% by 2025.",
+    "requiredDonations": ["clothes", "food"]
+    }
+  ]
+    

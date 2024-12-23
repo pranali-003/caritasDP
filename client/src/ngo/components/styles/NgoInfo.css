@@ -1,0 +1,34 @@
+.ngo-info-container {
+    display: flex;
+    align-items: center;
+     padding: px; 
+    border-radius: 5px;
+  
+    margin-top: 10px;
+    width: 520px;
+    
+  }
+
+  
+  .ngo-logo {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .ngo-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ngo-name {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .ngo-objective {
+    font-size: 1rem;
+    color: #6c757d; 
+  }
+  
